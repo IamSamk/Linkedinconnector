@@ -1,0 +1,14 @@
+[project]
+name = "linkedin-osint-backend"
+version = "2.1.0"
+description = "FastAPI 0.162.0 + Uvicorn 0.54.0 backend for regulated LinkedIn public OSINT, CSV-to-CV extraction, and cohort discovery"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.162.0",
+    "uvicorn[standard]==0.54.0",
+    "pydantic>=2.10.0",
+    "httpx>=0.28.0",
+    "beautifulsoup4>=4.12.3",
+    "python-multipart>=0.0.18",
+    "certifi>=2026.9.24",
+]
